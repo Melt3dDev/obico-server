@@ -15,7 +15,7 @@ const defaultTheme = (isLocalStorageSupported() ? localStorage.getItem('colorThe
 const colors = [
   {
     name: 'primary',
-    values: {[Themes.Light]: '#01A299', [Themes.Dark]: '#03DAC5'},
+    values: {[Themes.Light]: '#01A299', [Themes.Dark]: '#287474'},
   },
   {
     name: 'primary-hover',
@@ -23,7 +23,7 @@ const colors = [
   },
   {
     name: 'primary-muted',
-    values: {[Themes.Light]: '#03DAC5', [Themes.Dark]: '#018786'},
+    values: {[Themes.Light]: '#287474', [Themes.Dark]: '#018786'},
   },
   {
     name: 'on-primary',
@@ -83,15 +83,15 @@ const colors = [
   },
   {
     name: 'background',
-    values: {[Themes.Light]: '#EBEBEB', [Themes.Dark]: '#233141'},
+    values: {[Themes.Light]: '#EBEBEB', [Themes.Dark]: '#231F20'},
   },
   {
     name: 'surface-primary',
-    values: {[Themes.Light]: '#ffffff', [Themes.Dark]: '#485B71'},
+    values: {[Themes.Light]: '#ffffff', [Themes.Dark]: '#423D3E'},
   },
   {
     name: 'surface-secondary',
-    values: {[Themes.Light]: '#F5F5F5', [Themes.Dark]: '#2D3E4F'},
+    values: {[Themes.Light]: '#F5F5F5', [Themes.Dark]: '#373334'},
   },
   {
     name: 'overlay',
@@ -128,7 +128,7 @@ const colors = [
 
   {
     name: 'input-background',
-    values: {[Themes.Light]: '#E2E8ED', [Themes.Dark]: '#42566B'},
+    values: {[Themes.Light]: '#E2E8ED', [Themes.Dark]: '#3d383a'},
   },
   {
     name: 'input-placeholder',

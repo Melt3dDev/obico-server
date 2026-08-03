@@ -65,7 +65,7 @@ html[data-theme=dark] .sidebarItem {
 }
 
 .nozzleNinzaBlock {
-  background: #2D3E4F !important;
+  background: #373334 !important;
   color: #fff;
   padding: 18px 16px 30px 16px;
   margin-bottom: 1rem;
@@ -78,7 +78,7 @@ html[data-theme=dark] .sidebarItem {
 }
 
 .obicoAccent {
-  color: #03DAC5;
+  color: #287474;
 }
 
 .nozzleNizaBadgeImage {

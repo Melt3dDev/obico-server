@@ -46,7 +46,7 @@ export default {
         highlight1: currentThemeValue() === Themes.Light ? '#929292' : '#8395a7',
         highlight2: currentThemeValue() === Themes.Light ? '#b7b7b7' : '#a8bacc',
         highlight3: currentThemeValue() === Themes.Light ? '#7b7b7b' : '#6c7e90',
-        needle: currentThemeValue() === Themes.Light ? '#2d3e4f' : '#ffffff',
+        needle: currentThemeValue() === Themes.Light ? '#373334' : '#ffffff',
       }
 
       return {

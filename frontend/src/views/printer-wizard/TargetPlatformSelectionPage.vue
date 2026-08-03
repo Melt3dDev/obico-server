@@ -131,7 +131,7 @@ export default {
     .printer-item{
       .img-wrap{
         padding:20px;
-        background:#485B71;
+        background:#423D3E;
         border-radius:6px;
         img{
           width:100px;

@@ -54,7 +54,7 @@
               {{$t("Pricing")}}
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="https://www.obico.io/help/" target="_blank">
               <font-awesome-icon icon="fa-circle-question" />
               {{$t("Help")}}
@@ -65,7 +65,7 @@
               <font-awesome-icon icon="fa-brands fa-discord" />
               {{$t("Community")}}
             </a>
-          </li>
+          </li> -->
           <li>
             <hr class="my-0 mx-2" />
           </li>

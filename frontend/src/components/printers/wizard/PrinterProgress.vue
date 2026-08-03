@@ -73,7 +73,7 @@ export default {
       background-color:  var(--color-primary);
       border-color:var(--color-primary);
       svg{
-        color:#2D3E4F
+        color:#373334
       }
     }
     p{

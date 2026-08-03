@@ -299,7 +299,7 @@ export const kingroon = {
 
     {
       name: 'input-background',
-      values: {[Themes.Light]: '#E2E8ED', [Themes.Dark]: '#42566B'},
+      values: {[Themes.Light]: '#E2E8ED', [Themes.Dark]: '#3d383a'},
     },
     {
       name: 'input-placeholder',
@@ -336,7 +336,7 @@ export const mintion = {
     },
     {
       name: 'primary-muted',
-      values: {[Themes.Light]: '#03DAC5', [Themes.Dark]: '#03DAC5'},
+      values: {[Themes.Light]: '#287474', [Themes.Dark]: '#287474'},
     },
     {
       name: 'on-primary',
@@ -584,7 +584,7 @@ export const biqu = {
 
     {
       name: 'input-background',
-      values: {[Themes.Light]: '#42566B', [Themes.Dark]: '#000000'},
+      values: {[Themes.Light]: '#3d383a', [Themes.Dark]: '#000000'},
     },
     {
       name: 'input-placeholder',

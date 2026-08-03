@@ -50,8 +50,8 @@
               :class="{ active: viewName === 'pricing' }"
               >{{ $t("Pricing") }}</b-nav-item
             >
-            <b-nav-item href="https://www.obico.io/help/">{{ $t("Help") }}</b-nav-item>
-            <b-nav-item href="https://obico.io/discord">{{ $t("Community") }}</b-nav-item>
+            <!-- <b-nav-item href="https://www.obico.io/help/">{{ $t("Help") }}</b-nav-item>
+            <b-nav-item href="https://obico.io/discord">{{ $t("Community") }}</b-nav-item> -->
           </b-navbar-nav>
 
           <b-navbar-nav class="ml-auto">
