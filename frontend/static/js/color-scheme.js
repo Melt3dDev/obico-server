@@ -107,11 +107,11 @@ const colors = [
   },
   {
     name: 'divider',
-    values: {[Themes.Light]: '#ABB6C2', [Themes.Dark]: '#6A7B8A'},
+    values: {[Themes.Light]: '#ABB6C2', [Themes.Dark]: '#6a6566'},
   },
   {
     name: 'divider-muted',
-    values: {[Themes.Light]: '#ABB6C266', [Themes.Dark]: '#6A7B8A66'},
+    values: {[Themes.Light]: '#ABB6C266', [Themes.Dark]: '#6a656666'},
   },
   {
     name: 'text-primary',
