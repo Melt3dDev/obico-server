@@ -74,6 +74,7 @@ INSTALLED_APPS = [
     'api',
     'notifications',
     'webpack_loader',
+    'invitations',
 ]
 
 if get_bool('SOCIAL_LOGIN', False):
@@ -305,7 +306,13 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 ACCOUNT_DEFAULT_HTTP_PROTOCOL = 'https' if SITE_USES_HTTPS else 'http'
 LOGIN_REDIRECT_URL = '/'
 ACCOUNT_ALLOW_SIGN_UP = get_bool('ACCOUNT_ALLOW_SIGN_UP', False)
-ACCOUNT_ADAPTER = 'app.accounts.SyndicateSpecificAccountAdapter'
+# ACCOUNT_ADAPTER = 'app.accounts.SyndicateSpecificAccountAdapter'
+ACCOUNT_ADAPTER = 'invitations.models.InvitationsAdapter'
+INVITATIONS_ADAPTER = ACCOUNT_ADAPTER
+
+INVITATIONS_INVITATION_ONLY = True      # blocks signup without an invite
+INVITATIONS_INVITATION_EXPIRY = 7       # days; default is 3
+
 AUTH_USER_MODEL = 'app.User'
 SOCIALACCOUNT_ADAPTER = 'app.accounts.SocialAccountAdapter'
 SOCIALACCOUNT_PROVIDERS = {}
