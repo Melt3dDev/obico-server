@@ -266,7 +266,7 @@ SECURE_CROSS_ORIGIN_OPENER_POLICY = 'unsafe-none'
 
 SITE_USES_HTTPS = get_bool('SITE_USES_HTTPS', False)
 SITE_IS_PUBLIC = get_bool('SITE_IS_PUBLIC', False)
-
+SITE_ID = int(os.environ.get('SITE_ID', 4))
 # DRF settings:
 
 REST_FRAMEWORK = {

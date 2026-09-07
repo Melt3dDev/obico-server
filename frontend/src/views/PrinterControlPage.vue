@@ -98,7 +98,7 @@
               <small>{{ $t("Customize this page for each of your printers by reodering or hiding cards above.") }}</small
               >
             </div>
-            <b-button variant="outline-primary" class="custom-button" href="/printers/wizard/">
+            <b-button variant="outline-primary" class="custom-button" href="/printers/wizard/link/klipper-generic/">
               <i class="fas fa-plus"></i>
               {{$t("Add Printer")}}
             </b-button>
