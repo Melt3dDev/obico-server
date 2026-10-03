@@ -310,8 +310,10 @@ ACCOUNT_ALLOW_SIGN_UP = get_bool('ACCOUNT_ALLOW_SIGN_UP', False)
 ACCOUNT_ADAPTER = 'invitations.models.InvitationsAdapter'
 INVITATIONS_ADAPTER = ACCOUNT_ADAPTER
 
-INVITATIONS_INVITATION_ONLY = True      # blocks signup without an invite
-INVITATIONS_INVITATION_EXPIRY = 7       # days; default is 3
+INVITATIONS_INVITATION_ONLY = True
+INVITATIONS_INVITATION_EXPIRY = 30
+INVITATIONS_ACCEPT_INVITE_AFTER_SIGNUP = True
+INVITATIONS_GONE_ON_ACCEPT_ERROR = False
 
 AUTH_USER_MODEL = 'app.User'
 SOCIALACCOUNT_ADAPTER = 'app.accounts.SocialAccountAdapter'
@@ -518,7 +520,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 SYNDICATES = {
   'base': {
-    'display_name': 'Obico',
+    'display_name': 'Melt Cloud',
     'from_email': DEFAULT_FROM_EMAIL,
     'docRoot': 'https://www.obico.io/docs/',
   },

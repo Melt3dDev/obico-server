@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <page-layout>
     <template #content>
       <b-container>
@@ -182,4 +182,4 @@ export default {
 }
 }
 
-</style>
+</style> -->

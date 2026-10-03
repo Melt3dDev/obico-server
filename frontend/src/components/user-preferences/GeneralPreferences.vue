@@ -38,9 +38,9 @@
           </label>
         </div>
       </div>
-      <a class="col-sm-9 col-md-10 col-form-label" href="/ent/printers/archived/"
+      <!-- <a class="col-sm-9 col-md-10 col-form-label" href="/ent/printers/archived/"
         >{{ $t("View Archived Printers") }}</a
-      >
+      > -->
     </div>
   </section>
 </template>

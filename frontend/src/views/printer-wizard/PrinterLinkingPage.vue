@@ -17,7 +17,7 @@
               <b-row class="center py-5">
                 <div class="col-sm-12 col-lg-8">
                   <loading :active="chosenDeviceId != null" :can-cancel="false"> </loading>
-                  <div v-if="discoveryEnabled" class="discover">
+                  <!-- <div v-if="discoveryEnabled" class="discover">
                     <div class="discover-body">
                       <div v-if="!canStartLinking" style="text-align: center">
                         <div class="spinner-border big" role="status">
@@ -119,7 +119,8 @@
                       </div>
                     </div>
                   </div>
-                  <div v-else class="container pt-5">
+                  <div v-else class="container pt-5"> -->
+                  <div class="container pt-5">
                     <div class="row justify-content-center pb-1">
                       <div class="col-sm-12 col-md-8 col-lg-6 d-flex flex-column align-items-center">
                         <div class="d-flex align-items-center">
@@ -157,7 +158,7 @@
                   </div>
                 </div>
               </b-row>
-              <b-row v-if="!discoveryEnabled && !useLegacyVerificationCode" class="mt-3 mb-5 center">
+              <b-row class="mt-3 mb-5 center">
                 <div class="col-md-8 p-4 method-block">
                     <h4 class="text-center font-weight-bold wizard-page-title-font">{{ $t("Touch Screen") }}</h4>
                     <div class="image-block">
@@ -290,9 +291,9 @@ export default {
     },
   },
   created() {
-    if (this.targetOctoPrint) {
-      this.useLegacyVerificationCode = true
-    }
+    // if (this.targetOctoPrint) {
+    //   this.useLegacyVerificationCode = true
+    // }
     this.getVerificationCode()
     this.discoverPrinter()
   },
